@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+empty repository is created.  needed because version tracking happens in .git folder. this
+folder is created with git init
