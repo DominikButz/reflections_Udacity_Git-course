@@ -13,3 +13,18 @@ add single files and compare working dir with staging area using git diff.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 try out some experimental features on a different branch. 
+
+--------
+compare two branches with all commits (with diagram):
+ git log --graph master coins
+--------
+create new branch:
+git branch branch_name
+switch to new branch:
+git checkout branch_name
+--------
+
+How do the diagrams help you visualize the branch structure?
+ git log --graph branch1 branch2
+ 
+ 
