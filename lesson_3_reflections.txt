@@ -4,3 +4,9 @@ When sharing code with others and let the community improve the code by adding n
 Why might you want to always pull changes manually rather than having Git automatically 
 stay up-to-date with your remote repository?
 maybe I work on a different branch and don't need the update immediately
+
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+Branch: history of one project version (involving 1 or several files). 
+Clone: local copy of a repository (including branches)
+Fork: Server copy of a repository - copying a repository from one git hub account to another
