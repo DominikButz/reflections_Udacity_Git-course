@@ -27,4 +27,10 @@ git checkout branch_name
 How do the diagrams help you visualize the branch structure?
  git log --graph branch1 branch2
  
+ What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+ new version of the master branch including changes of both branches. 
  
+ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+ merging is only truly automatic if there are no conflicts... better share the work in a way that
+ conflicts cannot or only rarely occur. E.g. one contributor works on a new class (of the model) whereas the other works on 
+ the UI. afterwards, calling the new class and updating the ui should be done by only one programmer (e.g. after merging)
