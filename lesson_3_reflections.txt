@@ -10,3 +10,16 @@ instead of another?
 Branch: history of one project version (involving 1 or several files). 
 Clone: local copy of a repository (including branches)
 Fork: Server copy of a repository - copying a repository from one git hub account to another
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+can check out the functionality before deciding to merge. git fetch and then if all ok : 
+git merge A  B  .  same effect: git pull
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+harder: can't go back to earlier versions (only by using a file server like dropbox or Syno Cloud Station).
+creating branches would be harder: can work with folders and alternative file names...
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+If changes are beta, the code in the main branch still works as before. gives collaborators
+a chance to suggest changes, all leaving the master branch on github untouched.
